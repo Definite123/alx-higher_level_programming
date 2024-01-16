@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""A program that proints the ASCII alphabet,
-in lowercase, not followed by a new line."""
-for letters in range(97, 123):
-    print("{}".format(chr(letters)), end="")
+# 2-print_alphabet.py
+
+"""Print the alphabet in lowercase, not followed by a new line."""
+for letter in range(97, 123):
+    print("{}".format(chr(letter)), end="")
